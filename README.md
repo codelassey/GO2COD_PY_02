@@ -12,18 +12,32 @@ This Python script allows you to scrape headlines, prices, images, links, meta d
 - Collects **List items** (li tags) for structured lists
 
 ## Requirements
-- Python 3.x
+- Python 3
 - [Requests](https://pypi.org/project/requests/)
 - [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
 
 ## Installation
+
 To run this script, you need to install the required packages. You can install them using:
 
 ```bash
-pip install requests beautifulsoup4
-
+pip install requests
+pip install beautifulsoup4
+pip install bs4
+```
 ## How To Use
 
 1. Clone the respository:
 ```bash
-git clone https://github.com/yourusername/web-scraper.git
+git clone https://github.com/codelassey/GO2COD_PY_02.git
+```
+2. Open the project directory:
+```bash
+cd GO2COD_PY_02
+```
+3. Run the script:
+```bash
+python3 web_scrapper.py
+```
+### Caution
+This project is intended for **educational purposes only**. Unauthorized web scrapping may violate website terms of service or legal regulations. Always get permission before scrapping.
